@@ -21,6 +21,9 @@ Step 3: in mongo-express UI - create a new collection "users" in the database "m
     
 Step 4: start node server 
 
+    npm install express mongodb body-parser
+    npm audit fix
+    
     node server.js
     
 _You can access the application under localhost:3000 from your browser_
