@@ -57,7 +57,9 @@ Step 3: in mongo-express UI - create a new collection "users" in the database "m
 Step 4: start node server 
 
     npm install
-    node server.js
+    npm install express mongodb body-parser
+    
+    node server.js or npm run start
     
 Step 5: access the nodejs application from browser 
 
